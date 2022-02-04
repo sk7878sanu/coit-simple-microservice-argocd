@@ -27,7 +27,7 @@ spec:
             fsType: ext4
 
       containers:
-        - image: coitlearningsk/coit-fronted:v1
+        - image: coitlearning/coit-frontend:v1
           imagePullPolicy: IfNotPresent                         # 7
           name: coit-frontend
           ports:
